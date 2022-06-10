@@ -52,8 +52,8 @@ const Home: React.FC = () => {
       <IonAlert isOpen={!!error} message={error} buttons={[{text: 'Okay', handler: clearError}]}></IonAlert>
     <IonPage>
       <IonHeader>
-        <IonToolbar color="primary">
-          <IonTitle>BMI Calculator</IonTitle>
+        <IonToolbar color="danger">
+          <IonTitle>BMI Cal</IonTitle>
         </IonToolbar>
       </IonHeader>
       <IonContent fullscreen className="ion-padding">
