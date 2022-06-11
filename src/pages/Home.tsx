@@ -52,7 +52,7 @@ const Home: React.FC = () => {
       <IonAlert isOpen={!!error} message={error} buttons={[{text: 'Okay', handler: clearError}]}></IonAlert>
     <IonPage>
       <IonHeader>
-        <IonToolbar color="secondary">
+        <IonToolbar color="dark">
           <IonTitle>BMI Calculator</IonTitle>
         </IonToolbar>
       </IonHeader>
